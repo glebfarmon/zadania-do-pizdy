@@ -13,7 +13,7 @@ do {
     //2: 1 + 2;
     //3: 3 + 3;
     //4: 6 + 4;
-    //dopiero suma nie bedzie mniej lub rowna sie 100 i wypiszemy $liczebnik
+    //kiedy suma nie bedzie mniej lub rowna sie 100 -> wypiszemy $liczebnik
 
 } while($suma <= 100);
 
