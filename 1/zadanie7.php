@@ -1,4 +1,5 @@
 <?php
+echo rozlicz(12, 32);
 echo rozlicz(36, 8);
 
 function rozlicz($a, $b) {
@@ -11,5 +12,5 @@ function rozlicz($a, $b) {
             $b -= $a;
         }
     }
-    return $a;
+    return "Wynik: $a"; // mozna takze wyswietlic $b zamiast $a, nie ma roznicy, bo liczba sa takie same
 }
