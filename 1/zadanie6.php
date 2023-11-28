@@ -6,10 +6,12 @@ function rozlicz($n) {
     $suma = 0;
     $liczba = 7;
 
-    for($i = 0; $i < $n; $i++) {
+    $i = 0;
+    while($i < $n) {
         $suma += $liczba;
         $liczba += 7;
         //Tak samo jak w zadaniu 5, tylko zamienamy 2 na 7 ezzzzz xpp
+        $i++;
     }
 
     return "Suma $n liczb podzielnych przez 7: $suma <br>";
