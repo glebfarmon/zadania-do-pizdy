@@ -49,7 +49,7 @@ for($i = 1; $i <= 10; $i++) {
 <p class="trzeci">
     <?php
     for($i = 1; $i <= 10; $i++) {
-        echo sqrt($i) . " "; //sqrt - otrzymac pierwiastek z liczby, trzeba to po prostu zapamietac
+        echo sqrt($i) . " zadanie3.php"; //sqrt - otrzymac pierwiastek z liczby, trzeba to po prostu zapamietac
     }
     ?>
 </p>
